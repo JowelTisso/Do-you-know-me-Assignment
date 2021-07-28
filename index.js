@@ -72,9 +72,9 @@ const game = () =>{
     },
     {
       question: `Who is odette's boyfriend?
-      a : Odette
-      b : Karina
-      c : Kadita
+      a : Lancelot
+      b : Alucard
+      c : Gusion
 
       `,
       answer:"a"
