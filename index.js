@@ -18,7 +18,8 @@ var highscores = [
 
 const game = () =>{
 
-    var userName = readlineSync.question(chalk.whiteBright.bold('Whats your name? '));
+    var userName = readlineSync.question(chalk.whiteBright.bold(`Whats your name? 
+`));
 
     console.log("Welcome "+ userName+ "! Are you a fan of Mobile Legend? Let's find out!")
 
@@ -132,7 +133,7 @@ const game = () =>{
       console.log("You don't have a highscore!")
     }
 
-    if (readlineSync.keyInYN('Do you want this play again?')) {
+    if (readlineSync.keyInYN('Do you want to play again?')) {
           score = 0
           console.clear()
           game()
