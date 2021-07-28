@@ -134,9 +134,9 @@ const game = () =>{
 
     if (readlineSync.keyInYN('Do you want this play again?')) {
           score = 0
+          console.clear()
           game()
     } else {
-      
           console.log(chalk.cyanBright.bold('Thank you for playing!'))
     }
 }
